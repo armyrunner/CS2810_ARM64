@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-10-02 15:12:48</datetime>
+  <suite>
+    <title>alltests</title>
+    <test result="success">
+      <path>tests</path>
+      <fn>stoi-test.check:22</fn>
+      <id>zerotests</id>
+      <iteration>0</iteration>
+      <duration>0.000103</duration>
+      <description>simple</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>tests</path>
+      <fn>stoi-test.check:32</fn>
+      <id>onedigittests</id>
+      <iteration>0</iteration>
+      <duration>0.000086</duration>
+      <description>simple</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>tests</path>
+      <fn>stoi-test.check:51</fn>
+      <id>twodigittests</id>
+      <iteration>0</iteration>
+      <duration>0.000129</duration>
+      <description>simple</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>tests</path>
+      <fn>stoi-test.check:67</fn>
+      <id>multidigittests</id>
+      <iteration>0</iteration>
+      <duration>0.000115</duration>
+      <description>simple</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>tests</path>
+      <fn>stoi-test.check:89</fn>
+      <id>negativetests</id>
+      <iteration>0</iteration>
+      <duration>0.000140</duration>
+      <description>simple</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.047888</duration>
+</testsuites>
